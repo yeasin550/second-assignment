@@ -1,0 +1,20 @@
+/* ----------
+styling header 
+-------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: rgba(255, 144, 14, 0.1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container ul{
+    display: flex;
+    list-style: none;
+}

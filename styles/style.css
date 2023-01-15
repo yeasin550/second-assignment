@@ -245,15 +245,15 @@ text-align: center;
     padding-right: 140px;
     margin-bottom: 120px;
 }
-.our-sponspor{
+.our-sponsor{
   margin-bottom: 40px;
   text-align: center;
 }
-.our-sponspor h2{
+.our-sponsor h2{
     font-weight: 700;
     font-size: 40px
 }
-.our-sponspor p{
+.our-sponsor p{
     font-weight: 400;
     font-size: 16px;
     padding-left: 300px;
@@ -274,7 +274,7 @@ footer{
 .footer-title{
     font-weight: 400;
     font-size: 16px;
-    margin: 0 140px;
+    margin: 0px 140px;
     background-color: #FFF4E7;
     border-radius: 8px;
     text-align: center;
@@ -282,7 +282,6 @@ footer{
 }
 ----------------/* footer end */----------------------
 ------------------------------------------
-
 /*
 ------------------------------
 ------------ Media Queries for mobile devices

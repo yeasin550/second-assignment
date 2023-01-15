@@ -1,3 +1,8 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* ----------
 styling header 
 -------------------*/
@@ -6,15 +11,254 @@ styling header
     padding: 0;
 }
 .head{
-    background: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
+    /* width: 100%;
+    height: 1322px; */
 }
 .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
     
 }
 .container ul{
+    font-weight: 500;
+    font-size: 18px;
     display: flex;
     list-style: none;
+    gap: 40px;
+}
+.container h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+/*----------------------------------
+ -----------styling banner -------
+ ---------------------------------- */
+.banner .banner-title{
+    text-align: center;
+}
+.banner img{
+    width: 70%px;
+    height: 500px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.banner-title{
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 100px;
+}
+.banner-title h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.banner-title p{
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+/* btn style */
+.btn-primary{
+    color: white;
+    padding: 12px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* Our feature part */
+.feature{
+    margin-top: 85px;
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    /* gap: 20px; */
+}
+.feature-info{
+    margin-top: 70px;
+}
+.feature img{
+    width: 170px;
+    height: 170px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.feature-info h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.feature-info p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+/* feature info  styling tag */
+.feature-info .span{
+    color: #FF900E;
+}
+/* 10+Year Experience */
+/* ecperience label */
+.love-enjoy{
+    display: flex;
+    margin-top: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 100px;
+    gap: 50px;
+} 
+.love-info{
+    /* width: 50%; */
+    height: 560px;
+    background-color: rgba(248, 247, 247, 0.952);
+    border-radius: 15px;;
+    gap: 50px;
+} 
+.love-title h2{
+    border-left: 2px solid #FF900E;
+    padding-left: 10px;
+}
+.love-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.love-info img{
+    width: 200px;
+    height: 200px;
+}
+.love-info p{
+    font-weight: 400;
+    font-size: 10px;
+    color: #727272;
+    margin-top: 15px;
+}
+.love-information{
+    background-color: #FFFFFF;
+}
+.love-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+.love-information{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.love-information h4{
+    font-weight: 600;
+    font-size: 15px;
+}
+.love-picture img{
+    width: 680px;
+    height: 620px;
+}
+/*-------------------------
+----------- button style--------
+------------------------------------------ */
+.love-picture button{
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 40px;
+    border: none;
+    position: relative;
+    top: -80px;
+    left: -40px;
+}
+.love-picture button span{
+    font-size: 16px;
+}
+/* some facts :start */
+.some{
+    padding-left: 140px;
+    padding-right: 300px;
+    margin-bottom: 80px;
+}
+.some some-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.some some-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* about our facts */
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+/* animation style */
+.about-info:hover{
+    border-radius: 20px;
+    background-color: #FF900E;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+.about-info{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    transition: transform 1s, width 1s ease, height 1s ease-in-out;
+}
+.about-info img{
+    width: 35px;
+    height: 35px;
+    padding: 20px 55px 0;
+}
+.about-info h4{
+   text-align: center;
+}
+.about .about-title{
+text-align: center;
+}
+/*------------------------
+-------- Our Sponsors-------------
+------------------------------------------------- */
+.our-container{
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 120px;
+}
+.our-sponspor{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.our-sponspor h2{
+    font-weight: 700;
+    font-size: 40px
+}
+.our-sponspor p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 300px;
+    padding-right: 350px;
+}
+.our-container img{
+    width: 100px;
+    height: 40px;
+    margin-right: 100px;
+    align-items: center;
+}
+/* styling footer */
+footer{
+    margin-bottom: 150px;
+}
+.footer-title{
+    font-weight: 400;
+font-size: 16px;
+    margin: 0 140px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
 }

@@ -24,6 +24,10 @@ styling header
     padding-top: 50px;
     
 }
+
+.container span{
+  color: #FF900E;
+}
 .container ul{
     font-weight: 500;
     font-size: 18px;
@@ -61,7 +65,9 @@ styling header
     font-size: 12px;
     margin-bottom: 25px;
 }
-/* btn style */
+/*-------------
+                 btn style------------
+ ------------------ */
 .btn-primary{
     color: white;
     padding: 12px;
@@ -78,6 +84,9 @@ styling header
     margin-left: 160px;
     margin-right: 160px;
     /* gap: 20px; */
+}
+.feature span{
+    color: #727272;
 }
 .feature-info{
     margin-top: 70px;
@@ -242,6 +251,7 @@ text-align: center;
     font-size: 16px;
     padding-left: 300px;
     padding-right: 350px;
+    color: #727272;
 }
 .our-container img{
     width: 100px;

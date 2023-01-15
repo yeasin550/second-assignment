@@ -46,7 +46,7 @@ styling header
     text-align: center;
 }
 .banner img{
-    width: 70%px;
+    width: 1060px;
     height: 500px;
     padding-left: 140px;
     padding-right: 140px;
@@ -68,6 +68,10 @@ styling header
 /*-------------
                  btn style------------
  ------------------ */
+ .btn-primary:hover{
+    background-color: indianred;
+ }
+ /* button style */
 .btn-primary{
     color: white;
     padding: 12px;
@@ -79,7 +83,7 @@ styling header
 }
 /* Our feature part */
 .feature{
-    margin-top: 85px;
+    margin-top: 100px;
     display: flex;
     margin-left: 160px;
     margin-right: 160px;
@@ -89,11 +93,11 @@ styling header
     color: #727272;
 }
 .feature-info{
-    margin-top: 70px;
+    margin-top: 110px;
 }
 .feature img{
-    width: 170px;
-    height: 170px;
+    width: 220px;
+    height: 220px;
     margin: 5px;
     border-radius: 10px;
 }
@@ -122,19 +126,20 @@ styling header
     gap: 50px;
 } 
 .love-info{
-    /* width: 50%; */
-    height: 560px;
-    background-color: rgba(248, 247, 247, 0.952);
-    border-radius: 15px;;
+    border-radius: 15px;
     gap: 50px;
+    margin-top: 20px;
+
 } 
 .love-title h2{
-    border-left: 2px solid #FF900E;
+    border-left: 5px solid #FF900E;
     padding-left: 10px;
 }
 .love-title{
     font-weight: 700;
     font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(230, 215, 215);
 }
 .love-info img{
     width: 200px;
@@ -147,7 +152,9 @@ styling header
     margin-top: 15px;
 }
 .love-information{
-    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #fffcfc;
+    box-shadow: 5px 5px 20px rgb(233, 225, 225);
 }
 .love-title{
     margin-top: 10px;
@@ -210,7 +217,7 @@ styling header
     background-color: #FF900E;
     width: 200px;
     height: 200px;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 .about-info{
     border: 1px solid #FF900E;
@@ -256,7 +263,7 @@ text-align: center;
 .our-container img{
     width: 100px;
     height: 40px;
-    margin-right: 100px;
+    margin-left: 100px;
     align-items: center;
 }
 /* styling footer */

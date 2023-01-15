@@ -213,7 +213,7 @@ styling header
 }
 /* animation style */
 .about-info:hover{
-    border-radius: 20px;
+    border-radius: 20%;
     background-color: #FF900E;
     width: 200px;
     height: 200px;
@@ -267,15 +267,24 @@ text-align: center;
     align-items: center;
 }
 /* styling footer */
+/* footer start  */
 footer{
     margin-bottom: 150px;
 }
 .footer-title{
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
     margin: 0 140px;
     background-color: #FFF4E7;
     border-radius: 8px;
     text-align: center;
     padding: 25px;
 }
+----------------/* footer end */----------------------
+------------------------------------------
+
+/*
+------------------------------
+------------ Media Queries for mobile devices
+             -------------------------------------- */
+/* Mobile Devise */
